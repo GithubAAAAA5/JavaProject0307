@@ -19,6 +19,7 @@ public class A04_varTypes {
 		 *    - 8byte ( long )   
 		 *      signed : -2^63 ~ +2^63-1 
 		 */
+		
 
 		byte _byte = -128;     
 		short _short = 10;
