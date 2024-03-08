@@ -21,7 +21,7 @@ public class Quiz_240308_AM {
 ///		int num2 = 5 - (int)(Math.random()*11);    // int num2 는 y       랜덤수를 구하기 위한 입력문구 는 (int)(Math.random); 이고 구해야하는 x값의 범위가 0 에서 10 이기 때문에 11을 넣어준다.
 ///		System.out.println("랜덤 수는 : "+num2);
 ///		int abs = (num2 >=0 ? num2 : -num2);       // -num2 => num2 * -1
-///		System.out.println(num2+"의 절대값은 :"+abs);
+///		System.out.println(num2+"의 절대값은 :"+abs);	
 		
 		// quiz3 
 		// 정수를 입력받아 그 수가 짝수인지 홀수인지 출력하는 프로그램을 작성하세요.(3항연산식을 사용)
