@@ -28,7 +28,7 @@ public class B03_switchExample2 {
 			
 		}
 		
-
+		scan.close();
 	}
 
 }

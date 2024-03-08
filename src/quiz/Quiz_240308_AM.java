@@ -137,7 +137,7 @@ public class Quiz_240308_AM {
 			break;
 		}
 
-		scan.close();
+		scan.close();					//작업을 종료하여 할당메모리를 회수
 	}
 
 }

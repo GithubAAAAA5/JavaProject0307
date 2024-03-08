@@ -28,7 +28,7 @@ public class B01_Scanner {
 		int num = scan.nextInt();
 		System.out.println("사용자가 입력한 정수 : "+num);
 		System.out.println("사용자가 입력한 정수로 만든 char : "+(char)num);
-		
+		scan.close();
 	}
 
 }
