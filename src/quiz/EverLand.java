@@ -19,6 +19,7 @@ public class EverLand {
 		System.out.println("한 역을 지나는데 걸린 시간은 "+result+"분이 소요되었다.");
 		
 
+		
 	}
 
 }

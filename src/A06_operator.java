@@ -69,6 +69,7 @@ public class A06_operator {
 		System.out.println(value);
 		System.out.println();
 		
+		
 		// 단항연산자
 		a = 10;
 		
