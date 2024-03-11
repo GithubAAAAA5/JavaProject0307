@@ -1,6 +1,6 @@
 package quiz;
 
-public class Quiz_star1_240311am {
+public class Quiz_240311_star {
 
 	public static void main(String[] args) {
 		// for문을 이용하여 다음과 같이 별찍기를 하시오

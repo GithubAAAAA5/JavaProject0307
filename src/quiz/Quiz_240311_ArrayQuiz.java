@@ -1,6 +1,6 @@
 package quiz;
 
-public class ArrayQuiz {
+public class Quiz_240311_ArrayQuiz {
 
 	public static void main(String[] args) {
 		// 1. 1000개짜리 int형 배열을 생성한 뒤 모든 값을 1 - 100사이의 

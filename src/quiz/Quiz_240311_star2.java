@@ -1,6 +1,6 @@
 package quiz;
 
-public class Quiz_star2_240311am {
+public class Quiz_240311_star2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

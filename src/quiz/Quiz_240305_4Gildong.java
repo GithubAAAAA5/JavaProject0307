@@ -1,6 +1,6 @@
 package quiz;
 
-public class Gildong {
+public class Quiz_240305_4Gildong {
 
 	public static void main(String[] args) {
 		String banner = "* * * * * 출력 결과 * * * * *";

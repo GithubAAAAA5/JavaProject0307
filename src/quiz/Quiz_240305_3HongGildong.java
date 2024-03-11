@@ -1,6 +1,6 @@
 package quiz;
 
-public class HongGildong {
+public class Quiz_240305_3HongGildong {
 
 	public static void main(String[] args) {
 		

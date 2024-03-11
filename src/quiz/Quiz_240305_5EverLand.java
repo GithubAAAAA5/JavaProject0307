@@ -1,6 +1,6 @@
 package quiz;
 
-public class EverLand {
+public class Quiz_240305_5EverLand {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

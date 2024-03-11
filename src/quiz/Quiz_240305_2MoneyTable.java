@@ -1,6 +1,6 @@
 package quiz;
 
-public class MoneyTable {
+public class Quiz_240305_2MoneyTable {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

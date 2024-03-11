@@ -1,6 +1,6 @@
 package quiz;
 
-public class Rabbit {
+public class Quiz_240305_1Rabbit {
 
 	public static void main(String[] args) {
 		System.err.println("============================");

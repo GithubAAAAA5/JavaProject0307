@@ -1,6 +1,6 @@
 package quiz;
 
-public class quiz1 {
+public class Quiz_240305 {
 
 	public static void main(String[] args) {
 		System.out.println("===================");

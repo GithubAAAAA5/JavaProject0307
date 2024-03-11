@@ -1,6 +1,6 @@
 package quiz;
 
-public class ForStarDiamond {
+public class Quiz_240311_star3_ForStarDiamond {
 
 	public static void main(String[] args) {
 		// 다이아몬드 찍기

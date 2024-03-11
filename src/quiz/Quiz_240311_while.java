@@ -1,6 +1,6 @@
 package quiz;
 
-public class Quiz_while {
+public class Quiz_240311_while {
 
 	public static void main(String[] args) {
 		// while문을 이용하여 구구단을 다음과 같이 세로로 출력해 주세요
