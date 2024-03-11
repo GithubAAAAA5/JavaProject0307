@@ -22,10 +22,13 @@ public class Quiz_240311_star2 {
 			System.out.println();
 		}
 		
+		
+		System.out.println();
+		
 //		System.out.println();
 		
 		// 역삼각형
-		for (int o = 0; o < dan; o++) {
+		for (int o = 0; o < dan  ; o++) {
 			// space 출력
 			for (int p = 0; p < o; p++) {
 				System.out.print(" ");
