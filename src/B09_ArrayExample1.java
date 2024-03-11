@@ -44,6 +44,7 @@ public class B09_ArrayExample1 {
 		for (int i = 0; i < s.length; i++) {
 			System.out.print(s[i]);
 		}
+		
 		System.out.println();
 		
 		//문자열은 문자의 배열과 비슷하다.
@@ -86,6 +87,7 @@ public class B09_ArrayExample1 {
 		//	배열 선언시 자동적으로 기본값으로 초기화된다.
 		//	정수 : 0, 실수 : 0.0, boolean : false, 참조형 : null(비어있음)
 		String[] byeMessage = new String[10];
+		
 		System.out.println(Arrays.toString(byeMessage));
 
 		//	배열의 복사
