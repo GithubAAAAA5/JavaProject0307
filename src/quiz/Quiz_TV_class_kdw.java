@@ -23,7 +23,7 @@ public class Quiz_TV_class_kdw {
 		tv1.powerOnOff();
 		tv1.getTvInfo();
 		
-
+		
 	}
 
 }
@@ -96,9 +96,9 @@ class Tv {
 		
 		if(channel == MAX_CH) {
 			channel = MIN_CH;		//채널이 맥스(300)인경우 민(1)로 돌린다
-		}else 
+		}else {
 			channel ++;
-		
+		}
 		
 		System.out.println(channel + "CH");
 	}
