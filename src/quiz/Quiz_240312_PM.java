@@ -155,8 +155,11 @@ public class Quiz_240312_PM {
 		System.out.println();
 			
 	
+		scan.close();
 	}
 
+	
+	
 }
 	
 

@@ -55,15 +55,22 @@ public class C01_Class {
 		s1.kor = 100;
 		s1.eng = 99;
 		s1.name = "홍길동";
+		s2.eng = 41;
+		s2.his = 19;
+		s2.name = "김나박이";
+		s2.kor = 100;
+		s2.pro = 94;
 		
-///		System.out.println(s1);		// obj.Student@6f2b958e 해쉬값이다.
-///		System.out.println(s1.kor);
-///		System.out.println(s2.kor);	//s2.kor에 대한 값을 지정하지 않았기 때문에 기본값인 0이 나온다.
-///		System.out.println(s1.eng);
-///		System.out.println(s1.name);
-///		System.out.println(s1.getTotal());
-///		System.out.println(s1.getName());
 		
+		System.out.println(s1);		// obj.Student@6f2b958e 해쉬값이다.
+		System.out.println(s1.kor);
+		System.out.println(s2.kor);	//s2.kor에 대한 값을 지정하지 않았기 때문에 기본값인 0이 나온다.
+		System.out.println(s1.eng);
+		System.out.println(s1.name);
+		System.out.println(s1.getTotal());
+		System.out.println(s1.getName());
+		System.out.println(s2.getTotal());
+		System.out.println(s2.getClass());
 		
 	}
 

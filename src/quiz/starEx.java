@@ -33,6 +33,9 @@ public class starEx {
 			System.out.println();
 		}
 		
+		
+		scan.close();
+		
 	}
 	
 }

@@ -62,12 +62,24 @@ public class C02_method2 {
 		Scanner scan = new Scanner(System.in);
 		System.out.print("정수 입력 >>");
 		int num = scan.nextInt();
+		
+		scan.close();
+		
 		return num;
+		
 	}
+	
+
 	
 	// 유형4
 	static void print() {
 		System.out.println("정수 두개를 입력하세요.");
 		
+	
+	
 	}
+	
+	
 }
+
+
