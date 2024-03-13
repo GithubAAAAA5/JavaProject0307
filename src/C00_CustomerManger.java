@@ -35,6 +35,8 @@ public class C00_CustomerManger {
 			menu = menu.toLowerCase(); // 대소문자 구분을 하지않는다.
 			 // 메뉴 선택시 동작을 구현한다.
 			switch(menu.charAt(0)) {
+			
+			
 			case 'ㅑ':
 			case 'i':	// insert
 				System.out.println("고객 정보 입력을 시작합니다.");
@@ -46,6 +48,8 @@ public class C00_CustomerManger {
 					System.out.println("고객 정보를 저장했습니다.");
 				}
 				break;
+				
+				
 			case 'ㅔ':
 			case 'p':	// previous
 				System.out.println("이전 데이터를 출력합니다.");
@@ -56,6 +60,8 @@ public class C00_CustomerManger {
 					printCustomerData(index);
 				}
 				break;
+				
+				
 			case 'ㅜ':
 			case 'n':
 				System.out.println("다음 데이터를 출력합니다.");
@@ -66,6 +72,8 @@ public class C00_CustomerManger {
 					printCustomerData(index);
 				}
 				break;
+				
+				
 			case 'ㅊ':
 			case 'c':
 				System.out.println("현재 데이터를 출력합니다.");
@@ -74,15 +82,21 @@ public class C00_CustomerManger {
 				}else {
 					System.out.println("출력할 데이터가 선택되지 않았습니다.");
 				}
+				
+				
 			case 'ㅕ':
 			case 'u':
 				
 				break;
 				
+				
+				
 			case 'ㅇ':
 			case 'd':
 				
 				break;
+				
+				
 				
 			case 'ㅂ':
 			case 'q':	// 종료
@@ -93,6 +107,8 @@ public class C00_CustomerManger {
 																//a nonzero statuscode indicates abnormal termination. 
 																// exit에 마우스를 올리고 f2를 누르면 초록불s가 나오는데 초록불은 메소드 s는static
 				break;
+				
+				
 			default :
 				System.out.println("메뉴를 잘 못 입력했습니다. 다시 선택해 주세요");
 			

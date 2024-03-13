@@ -7,12 +7,12 @@ public class starEx {
 
 	public static void main(String[] args) {
 		
-
 	Scanner scan = new Scanner(System.in);
-
+		
+		//줄 수 입력 받는 부분
 		System.out.println("줄 수를 입력해주세요 : ");
 		int dan = scan.nextInt();
-		
+
 		for (int i = 0; i < dan; i++) {
 			for(int j = 0; j < dan - i - 1; j++) {
 				System.out.print(" ");
@@ -32,7 +32,7 @@ public class starEx {
 			}
 			System.out.println();
 		}
-
+		
 	}
 	
 }
