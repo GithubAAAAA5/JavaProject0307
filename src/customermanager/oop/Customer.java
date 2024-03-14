@@ -65,7 +65,36 @@ public class Customer {
 		return "Customer [name=" + name + ", gender=" + gender + ", email=" + email + ", birthYear=" + birthYear + "]";
 	}
 	
+	// equals() 를 Override 하여 비교할수 있게 만들어라.
 	
-	
+	@Override
+	public boolean equals(Object obj) {
+		// 동일 객체 확인
+		if(this == obj) {
+			return true;
+		}
+		
+		// null값 확인
+		if (obj == null) return false;
+		if (getClass() != obj.getClass()) return false;
+		Customer other = (Customer)obj;
+		if(name == null) {
+			if (other.name != null) {
+				return false;
+				}
+			}else if (!name.equals(other.name)) 
+				return false;
+			if (!gender.equals(other.gender)) 
+				return false;
+			if (!email.equals(other.email)) 
+				return false;
+			if (!(birthYear == other.birthYear)) 
+				return false;
+			
+			return true;
+			
+		
+	}
 
 }
+

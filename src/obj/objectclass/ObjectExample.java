@@ -32,12 +32,17 @@ public class ObjectExample {
 		Person p3 = new Person();
 		System.out.println(new String("hello").hashCode());
 		System.out.println("hello".hashCode());
-
+		p3.name = "홍길동";
+		p3.age = 20;
+		System.out.println("hash값 비교!!!");
+		System.out.println(p1.hashCode());
+		System.out.println(p3.hashCode());
 		
+		System.out.println("p3 객체의 getClass() 의 결과 : " +p3.getClass().toString());
+		System.out.println("p3 와 p2 값의 eqeuals()의 결과 : "	+ p3.equals(p2));
 		
-//		System.out.println("p1의 equals값 : " + p1.equals(obj));
-//		System.out.println("p2의 equals값 : " + p2.equals(obj));
-//		System.out.println("p1과 p2의 비교 결과 : " + (p1.equals(obj) == p2.equals(obj)) );
+		System.out.println(p3.toString());
+		System.out.println(p3);
 		
 	}
 	

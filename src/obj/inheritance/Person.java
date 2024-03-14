@@ -1,5 +1,7 @@
 package obj.inheritance;
 
+import customermanager.oop.Customer;
+
 /*
  *  상속(inheritance)
  *	 - 상속은 기존의 클래스를 확장하여 새로운 클래스를 이끌어 내는것을 의미한다.
@@ -68,6 +70,44 @@ public class Person {
 	}
 	
 	
+	// object 메서드 오버라이드 hashCode()
+	@Override
+	public int hashCode() {
+		// 특정 값을 기준으로 확인하기 위해서 메서드를 수정한다. (이름과 나이를 기준으로 한다)
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + age;
+		result = prime * ((name == null)? 0 : name.hashCode());
+		return result;
+		
+	}
 	
 	
+	//동일 객체 판단 .. 객체의 값을 이용
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj) {		// 동일한 객체
+			return true;
+		}
+		if (obj == null) return false; // null값 확인하기
+		if (getClass() != obj.getClass()) return false;		// 객체 생성 클래스 확인
+		Person other = (Person)obj;
+		if(age != other.age) return false; 	//객체 내에 age멤버의 값을 비교 확인한다.
+		if(name == null) {
+			if(other.name != null) {
+				return false;  	// 객체 내의 이름 확인
+			}
+		}else if(!name.equals(other.name)) return false;
+		
+		return true;
+		
+	}
+	
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stu
+			return "Person [name=" + name + ", age =" + age +"]";
+	}
+	
+
 }
