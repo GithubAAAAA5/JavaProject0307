@@ -50,9 +50,9 @@ public class Quiz_240315_pm {
 //			}
 //			
 //		}
-
-	}
-
+//
+//	}
+//
 }
 
 
@@ -61,6 +61,7 @@ class Buyer {
 	 *  Buyer의 인스턴스 변수(상태)
 	 *   필요한 만큼 사용해보세요. 
 	 */
+	
 
 
 	/*
@@ -126,6 +127,7 @@ class Product{  // 부모 클래스 사용할 예정!!
 	public int getPrice() {
 		return price;
 	}
+}
 }
 
 //카트와 트렁크는 배열
