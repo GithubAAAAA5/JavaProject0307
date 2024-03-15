@@ -69,6 +69,14 @@ public class Person {
 		this.age = age;
 	}
 	
+	public void walk() {
+		System.out.println(name + "는 걸어 간다.");
+	}
+	
+	public void ages() {
+		System.out.println(age + "살 이다.");
+	}
+	
 	
 	// object 메서드 오버라이드 hashCode()
 	@Override

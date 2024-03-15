@@ -7,6 +7,15 @@ public class Teacher extends Person {		// 부모가 가지고 있는 name 과 ag
 	public String teacherID;
 	public String subject;
 	
+	public Teacher() {}
+	
+	public Teacher(String name, int age, String subject) {
+		super(name, age);
+			this.subject = subject;
+	}
+	
+	
+	
 	@Override
 	public String getDetails() {
 		// TODO Auto-generated method stub
