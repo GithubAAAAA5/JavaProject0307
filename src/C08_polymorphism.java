@@ -33,7 +33,8 @@ public class C08_polymorphism {
 
 	public static void main(String[] args) {
 		//	다형성 테스트
-		Person p = new Student("HongGilDong", 17, "20240315", "도술");
+		Person p = new Student("HongGilDong", 17, "20240315", "도술");	// preson 이라는 부모 클래스에 자료를 집어넣었다 이를 업캐스팅이라 한다.
+		
 		// 오버라이드 된 메서드의 실행
 		System.out.println(p.getDetails()); 	// 오버라이드 된 내용은 자식의내용을 출력한다.
 		Person pO = new Person("LeeSoonSin", 40);
@@ -44,7 +45,7 @@ public class C08_polymorphism {
 		p.ages();
 //		p.study();	// p는 다형적 객체 이기 때문에 부모 클래스에 있는 메소드만 사용한다.
 		
-		Student casting = (Student)p;
+		Student casting = (Student)p;									// 다운캐스팅
 		// study() 를 사용해야 하는 경우에는  Student로 캐스팅이 되어야 가능하다.
 		
 		casting.study();
