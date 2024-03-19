@@ -22,7 +22,6 @@ public class p3 {
 		int result2 = number - number%1000;
 		System.out.println(result2);
 		
-
 	}
 
 }

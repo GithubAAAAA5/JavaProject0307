@@ -28,11 +28,6 @@ public class CustomerManager {
 	
 	
 	public static void main(String[] args) {
-		
-		// 이전에 만들어 놓은 고객관리 프로그램을 OOP형식으로 변경하여 재 프로그래밍을 진행!
-		// 1. Customer 클래스를 생성하고,
-		// 2. 관련 프로그램을 위에 생성한 Customer 클래스 기준으로 재작성하세요!
-	
 
 			// 고객 관리 프로그램 메뉴
 			while(true) {
@@ -46,7 +41,7 @@ public class CustomerManager {
 				 // 메뉴 선택시 동작을 구현한다.
 				switch(menu.charAt(0)) {
 				
-				
+//========================================================================================				
 				case 'ㅑ':
 				case 'i':	// insert
 					System.out.println("고객 정보 입력을 시작합니다.");
@@ -59,7 +54,7 @@ public class CustomerManager {
 					}
 					break;
 					
-					
+//========================================================================================						
 				case 'ㅔ':
 				case 'p':	// previous
 					System.out.println("이전 데이터를 출력합니다.");
@@ -71,7 +66,7 @@ public class CustomerManager {
 					}
 					break;
 					
-					
+//========================================================================================						
 				case 'ㅜ':
 				case 'n':
 					System.out.println("다음 데이터를 출력합니다.");
@@ -83,7 +78,7 @@ public class CustomerManager {
 					}
 					break;
 					
-					
+//========================================================================================						
 				case 'ㅊ':
 				case 'c':
 					System.out.println("현재 데이터를 출력합니다.");
@@ -92,7 +87,8 @@ public class CustomerManager {
 					}else {
 						System.out.println("출력할 데이터가 선택되지 않았습니다.");
 					}
-					
+
+//========================================================================================						
 				// update
 					
 				case 'ㅕ':
@@ -106,7 +102,8 @@ public class CustomerManager {
 					}
 					break;
 					
-					
+
+//========================================================================================						
 				//delete
 					
 				case 'ㅇ':
@@ -121,7 +118,7 @@ public class CustomerManager {
 					break;
 					
 					
-					
+//========================================================================================						
 				case 'ㅂ':
 				case 'q':	// 종료
 					System.out.println("프로그램을 종료합니다.");
