@@ -54,12 +54,23 @@ public class E03_arrayListEx {
 		System.out.println(list.remove(list.indexOf("홍길동")));
 		System.out.println(list.remove(0));
 		System.out.println(list.remove("홍길동"));		// true 로 값이 출력된다 --> 지우는것에 성공했다.
+		System.out.println("==============================================");
 		
 		
-		// contains
-		// toString
-		// toArray
+		// contains : 값을 포함하고 있는지 여부를 반환
+		System.out.println(list.contains("홍길동"));		//홍길동의 값을 가지고 있기 때문에 결과값이 true
+		System.out.println("==============================================");
 		
+		// toString : 
+		System.out.println(list.toString());
+		System.out.println("==============================================");
+		
+		// toArray : 
+		Object[] arr = list.toArray();
+
+		// clear : 
+		list.clear();
+		System.out.println(list);
 		
 		
 		
