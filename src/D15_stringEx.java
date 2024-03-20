@@ -36,7 +36,7 @@ public class D15_stringEx {
 		System.out.println("오렌지의 위치 : " + orangeIndex);
 		System.out.println("첫번째 o의 위치 " + str.indexOf('o'));
 		System.out.println("두번째 o의 위치 " + str.indexOf('o', str.indexOf('o')+1 ));
-		System.out.println("세번째 o의 위치 " + str.indexOf('x'));
+		System.out.println("x의 위치 " + str.indexOf('x'));
 		System.out.println("==================================");
 		
 		//4. charAt : 원하는 위치의 문자를 가져온다.
