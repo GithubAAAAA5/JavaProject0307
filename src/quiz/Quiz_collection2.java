@@ -19,7 +19,7 @@ public class Quiz_collection2 {
 		System.out.println("두번째 조 결과 : " + solution(second_participant, second_completion));
 		System.out.println("세번째 조 결과 : " + solution(third_participant, third_completion));
 		
-		
+		// 왜 결과값이 한명밖에 안나올까...?
 		
 
 	}
