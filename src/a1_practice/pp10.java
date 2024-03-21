@@ -1,6 +1,7 @@
 //package a1_practice;
-//
-//public class p10 {
+
+
+//public class pp10 {
 //
 //	public static void main(String[] args) {
 ////		System.out.println(1);
