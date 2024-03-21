@@ -16,7 +16,7 @@ public class E06_queueEx {
 		System.out.println(qu.toString());
 		
 		while(!qu.isEmpty()) {
-			System.out.println(qu.poll());
+			System.out.print(qu.poll());
 		}
 		
 	}
