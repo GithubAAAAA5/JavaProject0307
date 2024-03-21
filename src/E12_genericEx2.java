@@ -92,6 +92,7 @@ class Wallet<One extends Card , Two extends Money>	{
 	
 }
 
+
 class Card {}
 class CreditCard extends Card {}
 class CheckCard extends Card {}
