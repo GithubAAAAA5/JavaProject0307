@@ -1,7 +1,7 @@
 
 public class D17_string_stringbuilder {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) {			//응답 속도
 		// 성능비교!
 		long start,end;
 		start = System.currentTimeMillis();
