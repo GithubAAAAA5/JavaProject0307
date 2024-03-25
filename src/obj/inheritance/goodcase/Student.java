@@ -70,4 +70,26 @@ public class Student extends Person {
 		return "[이름 : " + name + "\t나이 : " + age + "\t학번 : " + studentID + "\t전공 : " + major + "]";
 	}
 	
+	public String getName() {
+		return name;
+	}
+
+	public String getStudentID() {
+		return studentID;
+	}
+
+	public String getMajor() {
+		return major;
+	}
+
+	public void setStudentID(String studentID) {
+		this.studentID = studentID;
+	}
+
+	public void setMajor(String major) {
+		this.major = major;
+	}
+	
+	
+	
 }
