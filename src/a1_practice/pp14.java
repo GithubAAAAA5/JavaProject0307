@@ -4,15 +4,24 @@ public class pp14 {
 
 	public static void main(String[] args) {
 
-		int p = 187000;
-		int o = p / 50000;
-		int i = p % 50000 / 10000;
-		int oc = p % 10000 / 5000;
+		int math = 50;
+		int eng = 65;
 		
+		if (math >= 60) {
+			if (eng >= 60) {
+				System.out.println("pass");
+			}
+		} else {
+			System.out.println("out");
+		}
 		
-		System.out.println(o);
-		System.out.println(i);
-		System.out.println(oc);
+		if (eng >= 60) {
+			if (math >= 60) {
+				System.out.println("pass");
+			}
+		} else {
+			System.out.println("out");
+		}
 	}
 
 }
