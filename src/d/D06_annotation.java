@@ -1,8 +1,9 @@
 package d;
-import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
-import UserAnnot;
+
+
+
 
 class UserClass {
 	@UserAnnot (value = "A")
@@ -16,6 +17,7 @@ class UserClass {
 	}
 	
 }
+
 
 
 public class D06_annotation {

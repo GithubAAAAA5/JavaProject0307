@@ -21,6 +21,14 @@ public class pp13 {
 		System.out.println(grade);
 		System.out.println("종료");
 
+		
+		int a = (int) 3.14;
+		int b = (int) 3f;
+		float c = (float) 3d;
+		double d = 3L;
+		
+		
+		
 }
 
 	
