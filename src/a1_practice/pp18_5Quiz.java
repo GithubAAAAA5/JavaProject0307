@@ -1,6 +1,6 @@
 package a1_practice;
 
-public class pp18 {
+public class pp18_5Quiz {
 	
 	// 제5장 연습문제
 	
