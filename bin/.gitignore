@@ -155,3 +155,8 @@
 /G02_ConsumerEx.class
 /G03_SupplierWx.class
 /G04_FunctionEx.class
+/G05_OperatorEx.class
+/Student.class
+/G06_PredicateEx.class
+/G07_IteratorEx.class
+/G08_StreamEx.class
