@@ -37,7 +37,7 @@ public class G18_ParallelStream {
 		// parallelStream() 스트림 처리
 		list.parallelStream().forEach(a -> {
 			try {
-				Thread.sleep(1);		//
+				Thread.sleep(1);		//sleep 매개변수 시간동안 스레드 일시 정지
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
@@ -55,7 +55,7 @@ public class G18_ParallelStream {
 		// 	정수 스트림 객체
 		Stream<Integer> stream2 = Stream.of(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
 		
-		// cancat()	메서드를 사용 두개의 스트림 묶기
+		// concat()	메서드를 사용 두개의 스트림 묶기
 		Stream<Object> concat = Stream.concat(stream1, stream2);
 		concat.forEach(a -> System.out.print(a + " "));
 		

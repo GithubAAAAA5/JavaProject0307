@@ -22,12 +22,12 @@ public class H01_processEx {
 		try {
 			// 메모장 실행
 			Process p1 = Runtime.getRuntime().exec("notepad.exe");
-			
+			// 그림판 실행
 			Process p2 = Runtime.getRuntime().exec("mspaint.exe");
 			
 			p1.waitFor();	//	p1 프로세스가 종료될때까지 대기
 			p2.destroy();	//	p1 프로세스가 종료되면 실행한다. destroy 종료를 실행한다. 
-					
+					// 메모장과 그림판이 실행되고, 메모장을 종료시키면 그림판도 같이 종료된다.
 		} catch (Exception e) {
 			
 			e.printStackTrace();
