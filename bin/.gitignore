@@ -174,3 +174,8 @@
 /G18_ParallelStream.class
 /H01_processEx.class
 /H02_ThreadEx.class
+/ThreadExtend.class
+/RunnableImpl.class
+/H02_ThreadEx$RunnableImpl.class
+/H02_ThreadEx$ThreadExtend.class
+/H02_ThreadEx$1.class
