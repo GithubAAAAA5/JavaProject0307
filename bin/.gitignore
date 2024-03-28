@@ -196,3 +196,11 @@
 /DaemonThread.class
 /H07_ThreadEx6.class
 /MyThread.class
+/Network.class
+/I01_ipNetAddress.class
+/I02_urlEx.class
+/I03_adsf.class
+/HttpThread.class
+/Server
+/I04_udpServerEx.class
+/I05_udpClient.class
