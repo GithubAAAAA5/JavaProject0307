@@ -25,7 +25,7 @@ public class pp24 {
 				System.out.println();
 			}
 		}
-		// 값 ㅊ룰력
+		// 값 출력
 		
 		
 		
